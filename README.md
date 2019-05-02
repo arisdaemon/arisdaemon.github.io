@@ -1,1 +1,5 @@
 # arisdaemon.github.io
+E. IN
+<br>CLASS OF 2022
+<br>CORNELL UNIVERSITY
+<br>LOCAL CRYPTID STILL AT LARGE

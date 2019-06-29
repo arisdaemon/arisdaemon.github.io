@@ -109,7 +109,7 @@ a {
   text-decoration-style: dotted;
 }
 a:visited {
-  color:#fff;
+  color:#fff !important;
 }
 [data-title]:hover:after {
     opacity: 0.9;

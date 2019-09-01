@@ -107,6 +107,7 @@ p {
 }
 a {
   text-decoration-style: dotted;
+  color:#fff;
 }
 a:visited {
   color:#fff !important;

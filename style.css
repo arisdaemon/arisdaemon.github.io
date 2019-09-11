@@ -110,7 +110,7 @@ a {
   color:#fff;
 }
 a:visited {
-  color:#fff !important;
+  color:#fff;
 }
 [data-title]:hover:after {
     opacity: 0.9;
@@ -133,9 +133,9 @@ a:visited {
     z-index: 99999;
     visibility: hidden;
     -webkit-transition: all 0.4s;
-       -moz-transition: all 0.4s;
-         -o-transition: all 0.4s;
-            transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
 }
 [data-title] {
     position: relative;
@@ -147,15 +147,15 @@ a:visited {
   font-weight: bold;
   color: #fff;
   padding: 15px 30px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
   letter-spacing: 1px;
   -webkit-transition: all 0.4s;
-     -moz-transition: all 0.4s;
-       -o-transition: all 0.4s;
-          transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .squarelink:hover {
   color: #7986AC;

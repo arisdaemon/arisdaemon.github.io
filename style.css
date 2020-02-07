@@ -50,8 +50,6 @@ table {
   border-spacing: 0;
 }
 
-/* particleground demo */
-
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -92,6 +90,9 @@ h1 {
   font-size: 85px;
   font-weight: 700;
   letter-spacing: 0.015em;
+  z-index:9;
+  color:#fff;
+  text-shadow:0px 0px 3px #fff;
   -webkit-transition: all 0.4s;
      -moz-transition: all 0.4s;
        -o-transition: all 0.4s;
@@ -109,6 +110,66 @@ p {
   margin: 0 0 30px 0;
   font-size: 24px;
 }
+#top {
+	z-index:0;
+    margin-top:-120px;
+    font-size: 24px;
+    opacity:0;
+    -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+.squarelink:hover ~ #top{
+    margin-top:-200px;
+	opacity:1;
+  -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+#left {
+	z-index:1;
+    margin-top:-20px;
+    font-size: 24px;
+    opacity:0;
+    -webkit-transition-delay: all 0.4s;
+     -moz-transition-delay: all 0.4s;
+       -o-transition-delay: all 0.4s;
+          transition-delay: all 0.4s;
+    -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+.squarelink:hover ~ #left{
+    margin-left:-600px;
+    margin-top:100px;
+	opacity:1;
+  -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+#right {
+	z-index:2;
+    margin-top:-34px;
+    font-size: 24px;
+    opacity:0;
+    -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+.squarelink:hover ~ #right{
+    margin-right:-650px;
+	opacity:1;
+  -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+       -o-transition: all 0.4s;
+          transition: all 0.4s;
+}
+
 a {
   text-decoration-style: dotted;
   color:#fff;
